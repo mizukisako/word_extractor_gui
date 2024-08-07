@@ -46,3 +46,4 @@ pyenv exec nuitka --onefile --enable-plugin=tk-inter `
 $SignToolPath = "C:\Program Files (x86)\Windows Kits\10\App Certification Kit\signtool.exe"
 $ExecutablePath = "C:\project\word_extractor_gui\dist\gui.exe"
 & $SignToolPath sign /tr http://timestamp.sectigo.com /td sha256 /fd sha256 $ExecutablePath
+```
