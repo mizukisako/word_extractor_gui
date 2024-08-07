@@ -1,5 +1,9 @@
+__pycache__
+ipadic
+
 *.csv
 *.build
 *.dist
 *.onefile-build
 *.exe
+*.zip
